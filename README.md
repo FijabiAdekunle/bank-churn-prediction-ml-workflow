@@ -1,28 +1,89 @@
-# bank-churn-predictor
-# 🏦 Bank Customer Churn Prediction App
+# Bank Customer Churn Analysis & Machine Learning
 
-A user-friendly web app that predicts whether a bank customer is likely to churn using a trained machine learning model. Built with **Streamlit** and powered by a **Random Forest Classifier**.
-
-![Streamlit App Demo](demo-screenshot.png) <!-- optional: replace with actual screenshot -->
+This repository contains the full end-to-end process of solving a **Bank Customer Churn Prediction** problem using machine learning. This project was inspired by a **Kaggle competition I hosted**, where participants were challenged to build predictive models to identify customers likely to churn from a bank.
 
 ---
 
-## 🚀 Demo
+##  Project Objective
 
-🔗 [Live App](https://your-name.streamlit.app)  
-*(Replace with actual deployed link)*
-
----
-
-## 📌 Features
-
-- Predict customer churn based on input features
-- Displays result as `Exited` or `Not Exited`
-- Clean and interactive Streamlit UI
-- Probability score (e.g., 76% chance of churn)
-- Ready for real-world integration and API extension
+To predict whether a customer will churn or not based on their demographics and account activities, using historical data. Accurate predictions can help banks take proactive measures to retain valuable customers.
 
 ---
 
+##  Project Structure
+
+The main steps included in this repository are:
+
+### 1. 🔍 Dataset Profiling
+- Data description and column summaries
+- Data types, missing values, duplicates
+- Class balance assessment
+
+### 2. 📊 Exploratory Data Analysis (EDA)
+- Univariate and bivariate visualizations
+- Insights into customer behavior
+- Correlation analysis
+
+### 3. 🛠️ Data Preprocessing
+- Encoding categorical variables
+- Dropping of irrelevant Columns
+- Handling of Imbalance Class
+- Feature engineering
+- Train-test split
+
+### 4. ⚙️ Model Building
+- SMOTE used for balancing the target variable
+- Multiple machine learning models tested (Logistic Regression, Random Forest, XGBoost, KNN & Decision Tree.)
+- Hyperparameter tuning using `RandomizedSearchCV`
 
 
+### 5. ✅ Model Evaluation
+- M/L Models have the following ROC-AUC Score:
+- Logistics Regression ROC-AUC Score: 0.8706
+- Decision Tree ROC-AUC Score: 0.7734
+- Random Forest ROC-AUC Score: 0.9256
+- KNN ROC-AUC Score: 0.5720
+- Xgboost ROC-AUC Score: 0.9261
+- Best-performing models: Random Forest & XGBoost
+
+### 6. 🚀 Model Deployment Preparation
+- Streamlit integration setup
+- Cleaned and serialized model with `joblib` and `pickle`
+- Separated final files for deployment
+
+---
+
+## 📂 Files in This Repository
+
+- `bank_churn_analysis.ipynb` – Main Jupyter Notebook for the entire process
+- `data` – Contains original and cleaned datasets
+- `models` – Saved machine learning models
+- `images` – Visuals from EDA and model evaluation
+- `README.md` – Project documentation
+
+---
+
+## 🌐 Live Demo
+
+The deployment of the predictive model is available here:  
+👉 [Streamlit App – Bank Customer Churn Prediction](https://bank-customer-churn-prediction-app-szvevdugbfdd8q6oghpuvj.streamlit.app/)
+
+The app code and deployment setup can be found in the companion repository:  
+🔗 [`bank-churn-streamlit-deployment`](https://github.com/FijabiAdekunle/bank-churn-streamlit-deployment)
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates how machine learning can be applied to solve real-world customer churn challenges. It covers the full data science lifecycle from data profiling to model deployment.
+
+---
+
+## 📬 Contact
+
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/fijabi-j-adekunle/) or check out my [data portfolio](https://sites.google.com/view/fijabijadekunle/home) for more projects.
+
+---
+
+> “Navigating Data, Unveiling Insights, Driving Impact.”  
+> — *FJ the Data Explorer*

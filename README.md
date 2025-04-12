@@ -79,9 +79,20 @@ This project demonstrates how machine learning can be applied to solve real-worl
 
 ---
 
-## 📬 Contact
+## 🙌 Call to Action
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/fijabi-j-adekunle/) or check out my [data portfolio](https://sites.google.com/view/fijabijadekunle/home) for more projects.
+Thanks for reviewing this end-to-end Machine Learning workflow on Bank Customer Churn Prediction!
+
+- 🚀 Want to try the live model?  
+  👉 [Launch the Streamlit App](https://bank-customer-churn-prediction-app-szvevdugbfdd8q6oghpuvj.streamlit.app/)
+
+- 💻 Prefer code? Explore the app deployment setup here:  
+  👉 [Streamlit Deployment Repo](https://github.com/FijabiAdekunle/bank-churn-streamlit-deployment)
+
+- 🌐[View my full data analytics portfolio](https://sites.google.com/view/fijabijadekunle/home)
+
+Feel free to fork this repo, try it on your data, and connect with me!
+
 
 ---
 
